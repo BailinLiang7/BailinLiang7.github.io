@@ -79,7 +79,7 @@ p {
   border-radius: 50%;
   box-shadow: 0 0 0 1px #dfe5ea;
   object-fit: cover;
-  object-position: 50% 10%;
+  object-position: 50% 30%;
   transform: scale(1.0)
 }
 
