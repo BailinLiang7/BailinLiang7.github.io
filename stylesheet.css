@@ -310,7 +310,7 @@ p {
 }
 
 .patent-highlight {
-  margin: 18px 0 0;
+  margin: 18px 0 24px;
   padding: 14px 18px;
   border-left: 5px solid #174a91;
   background: #f6f8fb;
