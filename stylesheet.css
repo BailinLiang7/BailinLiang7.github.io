@@ -309,6 +309,17 @@ p {
   margin-top: 2px;
 }
 
+.patent-highlight {
+  margin: 18px 0 0;
+  padding: 14px 18px;
+  border-left: 5px solid #174a91;
+  background: #f6f8fb;
+  color: #3f454d;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
 .education-item {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -327,6 +338,13 @@ p {
 .role-line {
   color: #555b63;
   font-weight: 700;
+}
+
+.experience-list {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding-left: 20px;
 }
 
 .experience-item.text-only {
