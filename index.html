@@ -99,7 +99,7 @@
             <h3>Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC</h3>
             <p><strong>Bailin Liang</strong>, Junnian Wang*, Zidong Zhou, Guoshun Cai, and Yong Wang*</p>
             <p>
-              <strong>IEEE/ASME Transactions on Mechatronics</strong> (JCR Q1; IF=6.3), under review.
+              <strong>ISA Transactions</strong> (JCR Q1; IF=6.6), under review.
             </p>
             <p>
               This paper proposes a Generalized Fault-Tolerant Control (GFT-RMPC) framework for multi-wheel corner-module vehicles, 
@@ -140,16 +140,6 @@
             <p><strong>Contributor</strong></p>
             <p>
               <strong>Automotive Innovation</strong> (JCR Q1; IF=7.6), under review.
-            </p>
-          </div>
-        </article>
-
-        <article class="publication-item text-only">
-          <div class="publication-body">
-            <h3>HalluAgent: Type-Conditioned Mitigation Visual Evidence for Hallucination Mitigation in Large Vision-Language Models.</h3>
-            <p><strong>Contributor</strong></p>
-            <p>
-              <strong>AAAI Conference on Artificial Intelligence</strong> (CCF-A), under review.
             </p>
           </div>
         </article>
@@ -244,33 +234,16 @@
         <article class="research-feature text-only">
           <div class="research-body">
             <article class="research-entry">
+              <h3>Nonlinear Shimmy Dynamics Analysis and Learning-Enhanced Control for Shimmy Suppression in Multi-Wheel Corner-Module Vehicles</h3>
+              <p><strong>Generalized Shimmy Dynamics Modeling:</strong> Developed a generalized nonlinear shimmy model for multi-wheel corner-module vehicles, capturing the inertial coupling among wheel-shimmy motion, suspension roll, and wheel rotational oscillations, together with lateral tire relaxation, steering backlash, and dry friction. Its modular architecture enables rapid adaptation across different multi-wheel corner-module chassis configurations.</p>
+              <p><strong>Nonlinear Shimmy Dynamics Analysis:</strong> Investigating how steering backlash, dry friction, and dynamic coupling across multiple subsystems reshape stability boundaries and give rise to complex shimmy responses characterized by periodicity, quasiperiodicity, slow amplitude modulation, multistability, and nonzero-mean oscillations.</p>
+              <p><strong>Shimmy-Aware Neural-Residual DiffTune-MPC:</strong> Developing a hybrid prediction model that augments a physics-guided nominal model with a neural residual to capture unmodeled nonlinear dynamics and reduce prediction mismatch. A shimmy-aware DiffTune-MPC scheme tunes the inner MPC cost weights against a closed-loop outer objective that minimizes band-limited shimmy energy and promotes oscillation-envelope contraction, enabling coordinated drive-brake-steer control for shimmy suppression.</p>
+            </article>
+
+            <article class="research-entry">
               <h3>Certifiable Latent Interface for Multimodal Robot Control</h3>
               <p>
                 Explore history-dependent latent state representations that retain task- and control-relevant information from multimodal observation histories while attenuating nuisance variations, perception noise, and irrelevant history. Develop latent-to-policy parameterizations with built-in closed-loop guarantees so that policies generated from admissible latent states remain feasible and safe when integrated with a stabilizing low-level controller and the physical plant. Explore online latent-space planning and reinforcement-learning-based policy optimization within certified admissible sets to improve task performance while preserving closed-loop guarantees.
-              </p>
-            </article>
-
-            <article class="research-entry">
-              <h3>Dynamics-Aware VLM Planning Framework for Autonomous Vehicles</h3>
-              <p>
-                Current VLM-based planning methods often overlook variations in vehicle dynamic capabilities 
-                caused by differences in chassis configurations, road conditions, and operating scenarios, potentially 
-                resulting in unreliable or dynamically infeasible trajectories. This work proposes a dynamics-aware VLM-based 
-                planning framework that integrates online-updated vehicle motion envelopes with closed-loop trajectory-feasibility 
-                feedback. The framework aims to bridge high-level semantic planning and dynamically executable vehicle motion, 
-                while improving planning reliability, safety, and generalization across heterogeneous vehicle configurations.
-
-              </p>
-            </article>
-
-            <article class="research-entry">
-              <h3>Shimmy Stability Control of Highly Integrated In-Wheel Motor Driving Units</h3>
-              <p>
-                This work focuses on shimmy stability control for Highly Integrated In-Wheel Motor
-                Driving Units (HIDUs), a by-wire modular chassis unit integrating driving, braking,
-                steering, and suspension functions. It aims to analyze HIDU shimmy mechanisms and
-                develop a coordinated driving-braking-steering control strategy for active shimmy
-                suppression.
               </p>
             </article>
           </div>
@@ -289,7 +262,6 @@
             <ul class="experience-list">
               <li>Main contributor to the sub-project <strong>Motion Characteristics Analysis and Configuration Design of Highly Integrated In-Wheel-Motor Driving Units</strong>, within <strong>Key Technologies for Highly Integrated In-Wheel-Motor Driving Units</strong>.</li>
               <li>Developed high-fidelity MATLAB/Simulink models and Adams Car multibody models to capture HIDU shimmy dynamics, supporting mechanism analysis and parameter sensitivity studies. Proposed a nonlinear shimmy dynamics analysis workflow for evaluating HIDU shimmy performance and implemented it as a preliminary analysis software tool.</li>
-              <li>Designed a coordinated driving-braking-steering control strategy for active shimmy suppression, accounting for suspension-steering coupling, steering clearance, and dry friction.</li>
             </ul>
           </div>
         </article>
