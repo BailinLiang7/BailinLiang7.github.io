@@ -213,6 +213,15 @@ p {
   grid-template-columns: 1fr;
 }
 
+.research-status {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 0.68em;
+  font-weight: 500;
+  color: #6b7280;
+  vertical-align: middle;
+}
+
 .publication-item:last-child,
 .experience-item:last-child {
   margin-bottom: 0;
