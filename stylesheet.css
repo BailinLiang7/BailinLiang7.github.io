@@ -281,25 +281,25 @@ p {
 }
 
 .corner-module-intro {
-  max-width: 920px;
-  margin-bottom: 22px;
+  margin: 0;
   font-size: 17px;
 }
 
-.corner-module-overview-layout {
+.corner-module-summary {
   display: grid;
-  grid-template-columns: minmax(240px, 34%) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 40%);
   gap: 34px;
-  align-items: start;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 .corner-module-static {
-  align-self: start;
+  width: 100%;
 }
 
 .corner-module-motion-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -504,9 +504,10 @@ p {
     gap: 14px 10px;
   }
 
-  .corner-module-overview-layout {
+  .corner-module-summary {
     grid-template-columns: 1fr;
     gap: 18px;
+    margin-bottom: 20px;
   }
 
   .image-placeholder {
