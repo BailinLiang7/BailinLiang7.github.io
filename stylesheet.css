@@ -265,3 +265,6 @@ h3 { font-size:15px; line-height:1.2; }
 #research-shimmy .model-figure-pair {width:82%;justify-self:center;gap:8px;}
 @media(min-width:701px) and (max-width:1000px) {#research-shimmy {grid-template-columns:185px minmax(0,1fr);column-gap:16px;}}
 @media(max-width:700px) {#research-shimmy {grid-template-columns:1fr;}}
+
+#research-shimmy .paper-figure-set {width:90%;justify-self:center;}
+#research-shimmy .paper-figure-set img {max-height:110px;}
