@@ -15,8 +15,8 @@
     <a href="#about">About Me</a>
     <a href="#education">Educations</a>
     <a href="#publications">Publications & Patents</a>
-    <a href="#research">Research</a>
-    <a href="#experience">Experience</a>
+    <a href="#research">Research Experience</a>
+    <a href="#experience">Internships</a>
   </nav>
 
   <main class="page-shell">
@@ -112,48 +112,31 @@
       <section id="publications" class="section-block">
         <h2><span class="section-icon">📝</span>Publications & Patents</h2>
 
-        <article class="publication-item">
-          <div class="publication-media paper-figure-set" data-image-slot="paper-preview">
-            <a href="photo/gft-rmpc-strategy.png" target="_blank" rel="noopener" aria-label="Open the full GFT-RMPC strategy diagram">
-              <img class="media-asset paper-figure-primary" src="photo/gft-rmpc-strategy.png" alt="GFT-RMPC strategy integrating automatic model generation, MPC reconfiguration, and physical latent-space optimization">
-            </a>
-            <img class="media-asset paper-figure-secondary" src="photo/Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC2.jpg" alt="Hardware-in-the-loop validation platform for the GFT-RMPC framework">
-          </div>
+        <article class="publication-item" data-paper="gft-rmpc">
+          <a class="publication-media" href="photo/gft-rmpc-paper-poster.webp" target="_blank" rel="noopener" aria-label="Open full-size GFT-RMPC paper poster">
+            <img class="media-asset" src="photo/gft-rmpc-paper-poster.webp" alt="GFT-RMPC paper poster" loading="lazy" width="2551" height="1417">
+          </a>
           <div class="publication-body">
             <h3>Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC</h3>
-            <p class="timeline-date">Nov 2025 - Jul 2026</p>
             <p><strong>Bailin Liang</strong>, Junnian Wang*, Zidong Zhou, Guoshun Cai, and Yong Wang*</p>
             <p>
               <strong>ISA Transactions</strong> (JCR Q1; IF=6.6), under review.
             </p>
-            <p>
-              This work proposes a generalized fault-tolerant control framework for multi-wheel corner-module vehicles, enabling automated transfer across
-              arbitrary multi-axle chassis configurations. By integrating automatic topology identification, health-aware MPC reconfiguration, and physical
-              latent-space optimization, the framework maintains vehicle stability and tracking accuracy under diverse fault scenarios. Validation across 18 steering, driving, and composite fault scenarios demonstrates superior stability and tracking performance over baseline methods for both 4-wheel and 6-wheel configurations. Hardware-in-the-loop experiments verify real-time execution within 12.36 ms, confirming cross-configuration adaptability and practical deployability.
-            </p>
+
           </div>
         </article>
 
-        <article class="publication-item">
-          <div class="publication-media paper-figure-set" data-image-slot="paper-preview-shimmy">
-            <img class="media-asset paper-figure-primary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles1.jpg" alt="Nonlinear shimmy analysis main preview">
-            <img class="media-asset paper-figure-secondary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles2.jpg" alt="Nonlinear shimmy analysis secondary preview">
-          </div>
+        <article class="publication-item" data-paper="shimmy">
+          <a class="publication-media" href="photo/shimmy-paper-poster.webp" target="_blank" rel="noopener" aria-label="Open full-size Nonlinear shimmy dynamics paper poster">
+            <img class="media-asset" src="photo/shimmy-paper-poster.webp" alt="Nonlinear shimmy dynamics paper poster" loading="lazy" width="2551" height="1417">
+          </a>
           <div class="publication-body">
             <h3>Nonlinear Shimmy Dynamics Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles</h3>
             <p><strong>Bailin Liang</strong>, Junnian Wang*, Yitong Wang, Chunlin Zhang, Yinpu Qi, and Heping Ling</p>
             <p>
               <strong>Nonlinear Dynamics</strong> (JCR Q1; IF=5.7), under review.
             </p>
-            <p>
-              This work develops a nonlinear shimmy analysis framework for highly integrated in-wheel motor driving units (HIDUs) with independent kingpin steering.
-              A coupled shimmy dynamics model of the HIDU is established, and linear stability analysis, complex-variable averaging (CX-A), and an
-              eigenspace-projected shooting (EPS) method are employed to characterize Hopf bifurcations and stable-manifold boundaries. A fast parametric
-              sensitivity analysis (FPSA) method is proposed, achieving high prediction accuracy and an overall computational speed-up of <strong>48.44×</strong>
-              over conventional simulation-based approaches. Finally, the energy flow (EF) method reveals distinct parameter-dependent shimmy suppression
-              mechanisms from the complementary perspectives of energy distribution and closed-loop power balance, providing guidance for design-oriented
-              parameter selection and active shimmy control.
-            </p>
+
           </div>
         </article>
 
@@ -172,11 +155,7 @@
           and have participated in <strong>21 granted or published invention patents</strong> in total.
         </p>
 
-        <article class="publication-item">
-          <div class="publication-media patent-figure-pair" data-image-slot="patent-wheel-module">
-            <img class="media-asset" src="photo/patent1.png" alt="Kingpin steering and omni-directional steering dual-mode power-multiplexing electric wheel corner module patent figure">
-            <img class="media-asset" src="photo/patent1_1.jpg" alt="Kingpin steering and omni-directional steering dual-mode power-multiplexing electric wheel corner module secondary patent figure">
-          </div>
+        <article class="publication-item text-only">
           <div class="publication-body">
             <h3>Kingpin Steering and Omni-Directional Steering Dual-Mode Power-Multiplexing Electric Wheel Angle Module</h3>
             <p><strong>First Student Inventor</strong></p>
@@ -185,8 +164,7 @@
           </div>
         </article>
 
-        <article class="publication-item">
-          <img class="publication-media media-asset" src="photo/patent2_web.jpg" alt="Land-air power-multiplexing flying car using electric wheel corner modules patent figure" data-image-slot="patent-corner-module">
+        <article class="publication-item text-only">
           <div class="publication-body">
             <h3>Land-Air Power-Multiplexing Flying Car Using Electric Wheel corner Modules</h3>
             <p><strong>First Student Inventor</strong></p>
@@ -253,45 +231,61 @@
       </section>
 
       <section id="research" class="section-block">
-        <h2><span class="section-icon">🔬</span>Current Research</h2>
-        <article class="research-feature text-only">
-          <div class="research-body">
-            <article class="research-entry">
+        <h2><span class="section-icon">🔬</span>Research Experience</h2>
+
+        <article class="experience-item text-only">
+          <div class="experience-body">
               <h3>Coordinated Shimmy Suppression in Multi-Wheel Corner-Module Vehicles via Neural-Residual DiffTune-MPC</h3>
               <p class="timeline-date">Sept 2026 - Present</p>
               <p><strong>Generalized Shimmy Dynamics Modeling:</strong> Developed a generalized nonlinear shimmy model for multi-wheel corner-module vehicles, capturing the inertial coupling among wheel-shimmy motion, suspension roll, and wheel rotational oscillations, together with lateral tire relaxation, steering backlash, and dry friction. Its modular architecture enables rapid adaptation across different multi-wheel corner-module chassis configurations.</p>
               <p><strong>Nonlinear Shimmy Dynamics Analysis:</strong> Investigating how steering backlash, dry friction, and dynamic coupling across multiple subsystems reshape stability boundaries and give rise to complex shimmy responses characterized by periodicity, quasiperiodicity, slow amplitude modulation, multistability, and nonzero-mean oscillations.</p>
               <p><strong>Shimmy-Aware Neural-Residual DiffTune-MPC:</strong> Developing a hybrid prediction model that augments a physics-guided nominal model with a neural residual to capture unmodeled nonlinear dynamics and reduce prediction mismatch. A shimmy-aware DiffTune-MPC scheme tunes the inner MPC cost weights against a closed-loop outer objective that minimizes band-limited shimmy energy and promotes oscillation-envelope contraction, enabling coordinated drive-brake-steer control for shimmy suppression.</p>
-            </article>
-
-            <article class="research-entry">
-              <h3>Certifiable Latent Interface for Multimodal Robot Control <span class="research-status">Research interest</span></h3>
-              <p>
-                Explore history-dependent latent state representations that retain task- and control-relevant information from multimodal observation histories while attenuating nuisance variations, perception noise, and irrelevant history. Develop latent-to-policy parameterizations with built-in closed-loop guarantees so that policies generated from admissible latent states remain feasible and safe when integrated with a stabilizing low-level controller and the physical plant. Explore online latent-space planning and reinforcement-learning-based policy optimization within certified admissible sets to improve task performance while preserving closed-loop guarantees.
-              </p>
-            </article>
           </div>
         </article>
-      </section>
-
-      <section id="experience" class="section-block">
-        <h2><span class="section-icon">💼</span>Experience</h2>
 
         <article class="experience-item">
-          <img class="experience-media media-asset" src="photo/National Key R&D Program of China.jpg" alt="National Key R&D Program of China project preview" data-image-slot="key-rd-project">
+          <div class="experience-media paper-figure-set" data-image-slot="paper-preview-shimmy">
+            <img class="media-asset paper-figure-primary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles1.jpg" alt="Nonlinear shimmy analysis main preview">
+            <img class="media-asset paper-figure-secondary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles2.jpg" alt="Nonlinear shimmy analysis secondary preview">
+          </div>
           <div class="experience-body">
             <div class="timeline-date">Apr 2025 - Present</div>
-            <h3>National Key R&D Program of China</h3>
-            <p class="role-line">Main Contributor, Grant No. 2024YFB2505100 · Changchun, China</p>
+            <h3>Nonlinear Shimmy Dynamics Analysis of Highly Integrated In-Wheel-Motor Driving Units</h3>
+            <p class="role-line">National Key R&D Program of China · Main Contributor, Grant No. 2024YFB2505100 · Changchun, China</p>
             <ul class="experience-list">
               <li>Main contributor to the sub-project <strong>Motion Characteristics Analysis and Configuration Design of Highly Integrated In-Wheel-Motor Driving Units</strong>, within <strong>Key Technologies for Highly Integrated In-Wheel-Motor Driving Units</strong>.</li>
               <li>Developed a high-fidelity 13-DOF MATLAB/Simulink shimmy dynamics model for HIDUs with independent kingpin steering to investigate nonlinear shimmy mechanisms and parameter sensitivity. Built an Adams Car multibody model for comparative validation and implemented the workflow as an analysis software tool, laying the foundation for generalized shimmy dynamics research on multi-wheel platforms.</li>
-              <li>Based on a simplified nonlinear shimmy model, proposed a nonlinear dynamics analysis framework combining complex variable averaging (CX-A) and eigenspace-projected shooting for bifurcation analysis. Developed an FPSA method for efficient parameter evaluation and used energy-flow analysis to reveal parameter-dependent shimmy suppression mechanisms.</li>
+              <li>Based on a simplified nonlinear shimmy model, proposed a nonlinear dynamics analysis framework combining complex variable averaging (CX-A) and eigenspace-projected shooting for bifurcation analysis. Developed an FPSA method achieving an overall 48.44× computational speed-up over conventional simulation-based approaches. Energy-flow analysis reveals parameter-dependent shimmy suppression mechanisms through energy distribution and closed-loop power balance.</li>
             </ul>
           </div>
         </article>
 
-        <article class="experience-item text-only">
+        <article class="experience-item" id="research-gft-rmpc">
+          <div class="experience-media paper-figure-set" data-image-slot="paper-preview">
+            <a href="photo/gft-rmpc-strategy.png" target="_blank" rel="noopener" aria-label="Open the full GFT-RMPC strategy diagram">
+              <img class="media-asset paper-figure-primary" src="photo/gft-rmpc-strategy.png" alt="GFT-RMPC strategy integrating automatic model generation, MPC reconfiguration, and physical latent-space optimization">
+            </a>
+            <img class="media-asset paper-figure-secondary" src="photo/Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC2.jpg" alt="Hardware-in-the-loop validation platform for the GFT-RMPC framework">
+          </div>
+          <div class="experience-body">
+            <p class="timeline-date">Nov 2025 - Jul 2026</p>
+            <h3>Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC</h3>
+            <p>
+              This work proposes a generalized fault-tolerant control framework for multi-wheel corner-module vehicles, enabling automated transfer across
+              arbitrary multi-axle chassis configurations. By integrating automatic topology identification, health-aware MPC reconfiguration, and physical
+              latent-space optimization, the framework maintains vehicle stability and tracking accuracy under diverse fault scenarios. Validation across 18 steering, driving, and composite fault scenarios demonstrates superior stability and tracking performance over baseline methods for both 4-wheel and 6-wheel configurations. Hardware-in-the-loop experiments verify real-time execution within 12.36 ms, confirming cross-configuration adaptability and practical deployability.
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-item">
+          <div class="paper-figure-set">
+          <div class="experience-media patent-figure-pair" data-image-slot="patent-wheel-module">
+            <img class="media-asset" src="photo/patent1.png" alt="Kingpin steering and omni-directional steering dual-mode power-multiplexing electric wheel corner module patent figure">
+            <img class="media-asset" src="photo/patent1_1.jpg" alt="Kingpin steering and omni-directional steering dual-mode power-multiplexing electric wheel corner module secondary patent figure">
+          </div>
+          <img class="experience-media media-asset" src="photo/patent2_web.jpg" alt="Land-air power-multiplexing flying car using electric wheel corner modules patent figure" data-image-slot="patent-corner-module">
+          </div>
           <div class="experience-body">
             <div class="timeline-date">Oct 2025 - May 2026</div>
             <h3>Architecture Design of Multi-Mode Power-Multiplexed Electric Wheel Corner Modules</h3>
@@ -311,6 +305,19 @@
             </ul>
           </div>
         </article>
+
+        <article class="experience-item text-only">
+          <div class="experience-body">
+              <h3>Certifiable Latent Interface for Multimodal Robot Control <span class="research-status">Research interest</span></h3>
+              <p>
+                Explore history-dependent latent state representations that retain task- and control-relevant information from multimodal observation histories while attenuating nuisance variations, perception noise, and irrelevant history. Develop latent-to-policy parameterizations with built-in closed-loop guarantees so that policies generated from admissible latent states remain feasible and safe when integrated with a stabilizing low-level controller and the physical plant. Explore online latent-space planning and reinforcement-learning-based policy optimization within certified admissible sets to improve task performance while preserving closed-loop guarantees.
+              </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="experience" class="section-block">
+        <h2><span class="section-icon">💼</span>Internships</h2>
 
         <article class="experience-item text-only">
           <div class="experience-body">

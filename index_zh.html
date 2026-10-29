@@ -15,8 +15,8 @@
     <a href="#about">个人简介</a>
     <a href="#education">教育经历</a>
     <a href="#publications">论文与专利</a>
-    <a href="#research">研究方向</a>
-    <a href="#experience">经历</a>
+    <a href="#research">研究经历</a>
+    <a href="#experience">实习经历</a>
   </nav>
 
   <main class="page-shell">
@@ -75,38 +75,31 @@
       <section id="publications" class="section-block">
         <h2><span class="section-icon">&#128196;</span>论文与专利</h2>
 
-        <article class="publication-item">
-          <div class="publication-media paper-figure-set" data-image-slot="paper-preview">
-            <img class="media-asset paper-figure-primary" src="photo/Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC1.jpg" alt="广义容错控制论文主图预览">
-            <img class="media-asset paper-figure-secondary" src="photo/Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC2.jpg" alt="广义容错控制论文辅助图预览">
-          </div>
+        <article class="publication-item" data-paper="gft-rmpc">
+          <a class="publication-media" href="photo/gft-rmpc-paper-poster.webp" target="_blank" rel="noopener" aria-label="Open full-size GFT-RMPC paper poster">
+            <img class="media-asset" src="photo/gft-rmpc-paper-poster.webp" alt="GFT-RMPC paper poster" loading="lazy" width="2551" height="1417">
+          </a>
           <div class="publication-body">
             <h3>Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC</h3>
-            <p class="timeline-date">2025 年 11 月 - 2026 年 7 月</p>
             <p><strong>Bailin Liang</strong>, Junnian Wang*, Zidong Zhou, Guoshun Cai, and Yong Wang*</p>
             <p>
               <strong>ISA Transactions</strong>（JCR Q1；IF=6.6），审稿中。
             </p>
-            <p>
-              本文提出一种面向多轮角模块车辆的通用容错控制（GFT-RMPC）框架，可适配任意底盘构型（4W/6W 及更多构型），具备跨平台泛化能力。该框架包含底盘特征的自动拓扑辨识、考虑执行器健康状态的可重构MPC方案，以及物理潜空间优化方法，确保车辆能在多执行器失效的复杂场景下仍保持车辆稳定性与轨迹跟踪精度。在 18 种转向、驱动及复合故障场景下验证了 GFT-RMPC，证明其在四轮与六轮构型下相较基线方法具有更优的稳定性与跟踪性能。硬件在环测试验证了 12.36 ms 内的实时执行能力，体现了跨构型适应性与工程可部署性。
-            </p>
+
           </div>
         </article>
 
-        <article class="publication-item">
-          <div class="publication-media paper-figure-set" data-image-slot="paper-preview-shimmy">
-            <img class="media-asset paper-figure-primary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles1.jpg" alt="非线性摆振分析论文主图预览">
-            <img class="media-asset paper-figure-secondary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles2.jpg" alt="非线性摆振分析论文辅助图预览">
-          </div>
+        <article class="publication-item" data-paper="shimmy">
+          <a class="publication-media" href="photo/shimmy-paper-poster.webp" target="_blank" rel="noopener" aria-label="Open full-size Nonlinear shimmy dynamics paper poster">
+            <img class="media-asset" src="photo/shimmy-paper-poster.webp" alt="Nonlinear shimmy dynamics paper poster" loading="lazy" width="2551" height="1417">
+          </a>
           <div class="publication-body">
             <h3>Nonlinear Shimmy Dynamics Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles</h3>
             <p><strong>Bailin Liang</strong>, Junnian Wang*, Yitong Wang, Chunlin Zhang, Yinpu Qi, and Heping Ling</p>
             <p>
               <strong>Nonlinear Dynamics</strong>（JCR Q1；IF=5.7），审稿中。
             </p>
-            <p>
-              本工作搭建了面向高集成行驶单元（HIDU）的非线性摆振动力学模型，同时考虑车轮定位参数以及悬架与转向耦合运动的影响。结合复变量平均法（CX-A）与特征子空间投影打靶法进行分岔分析，并提出快速参数敏感性分析（FPSA）方法，相较传统纯数值仿真方法显著提升分析效率。研究揭示了高集成行驶单元的车轮自激摆振机理，并解释了车轮摆振与悬架侧倾运动之间的能量传递机制，为后续的底盘设计优化方案和控制策略开发提供理论指导。
-            </p>
+
           </div>
         </article>
 
@@ -125,11 +118,7 @@
           并累计参与<strong>21 项授权或公开发明专利</strong>。
         </p>
 
-        <article class="publication-item">
-          <div class="publication-media patent-figure-pair" data-image-slot="patent-wheel-module">
-            <img class="media-asset" src="photo/patent1.png" alt="主销转向与全向转向双模式动力复用电动轮角模块专利图">
-            <img class="media-asset" src="photo/patent1_1.jpg" alt="主销转向与全向转向双模式动力复用电动轮角模块专利辅助图">
-          </div>
+        <article class="publication-item text-only">
           <div class="publication-body">
             <h3>主销转向与全向转向双模式动力复用电动轮角模块</h3>
             <p><strong>第一学生发明人</strong></p>
@@ -138,8 +127,7 @@
           </div>
         </article>
 
-        <article class="publication-item">
-          <img class="publication-media media-asset" src="photo/patent2_web.jpg" alt="采用电动轮角模块的陆空动力复用飞行汽车专利图" data-image-slot="patent-corner-module">
+        <article class="publication-item text-only">
           <div class="publication-body">
             <h3>采用电动轮角模块的陆空动力复用飞行汽车</h3>
             <p><strong>第一学生发明人</strong></p>
@@ -204,45 +192,57 @@
       </section>
 
       <section id="research" class="section-block">
-        <h2><span class="section-icon">&#128300;</span>当前研究</h2>
-        <article class="research-feature text-only">
-          <div class="research-body">
-            <article class="research-entry">
+        <h2><span class="section-icon">🔬</span>研究经历</h2>
+
+        <article class="experience-item text-only">
+          <div class="experience-body">
               <h3>基于神经残差 DiffTune-MPC 的多轮角模块车辆协同摆振抑制</h3>
               <p class="timeline-date">2026 年 9 月 - 至今</p>
               <p><strong>广义摆振动力学建模：</strong>建立面向多轮角模块车辆的广义非线性摆振模型，描述车轮摆振、悬架侧倾与车轮转动振荡之间的惯性耦合，并考虑轮胎侧向松弛、转向间隙和干摩擦。模块化架构可快速适配不同的多轮角模块底盘构型。</p>
               <p><strong>非线性摆振动力学分析：</strong>研究转向间隙、干摩擦以及多个子系统间的动力学耦合如何重塑稳定性边界，并导致周期、准周期、慢幅值调制、多稳态和非零均值振荡等复杂摆振响应。</p>
               <p><strong>摆振感知神经残差 DiffTune-MPC：</strong>构建以物理引导标称模型为基础、通过神经残差补偿未建模非线性动力学的混合预测模型，以降低预测失配。摆振感知 DiffTune-MPC 根据闭环外层目标调整内层 MPC 代价权重，最小化带限摆振能量并促进振荡包络收缩，实现驱动-制动-转向协同摆振抑制。</p>
-            </article>
-
-            <article class="research-entry">
-              <h3>面向多模态机器人控制的可认证潜在接口</h3>
-              <p>
-                探索依赖观测历史的潜在状态表示，从多模态观测历史中选择性保留与任务和控制相关的信息，抑制干扰变化、感知噪声及无关历史信息。研究具有内置闭环保证的潜在状态到策略的参数化方法，使可容许潜在状态生成的高层动作策略与稳定化底层控制器及物理系统结合时保持可行与安全。进一步探索潜在空间在线规划与基于强化学习的策略优化，在认证的可容许集合内更新潜在状态与策略，提升任务性能并保持闭环保证。
-              </p>
-            </article>
           </div>
         </article>
-      </section>
-
-      <section id="experience" class="section-block">
-        <h2><span class="section-icon">&#128188;</span>经历</h2>
 
         <article class="experience-item">
-          <img class="experience-media media-asset" src="photo/National Key R&D Program of China.jpg" alt="国家重点研发计划项目预览图" data-image-slot="key-rd-project">
+          <div class="experience-media paper-figure-set" data-image-slot="paper-preview-shimmy">
+            <img class="media-asset paper-figure-primary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles1.jpg" alt="非线性摆振分析论文主图预览">
+            <img class="media-asset paper-figure-secondary" src="photo/Nonlinear Shimmy Analysis of Highly Integrated In-Wheel Motor Driving Unit with Independent Kingpin Steering for Electric Vehicles2.jpg" alt="非线性摆振分析论文辅助图预览">
+          </div>
           <div class="experience-body">
             <div class="timeline-date">2025 年 4 月 - 至今</div>
-            <h3>国家重点研发计划</h3>
-            <p class="role-line">主要参与人，项目编号 2024YFB2505100 · 长春</p>
+            <h3>高集成轮毂电机行驶单元的非线性摆振动力学分析</h3>
+            <p class="role-line">国家重点研发计划 · 主要参与人，项目编号 2024YFB2505100 · 长春</p>
             <ul class="experience-list">
               <li>作为主要参与人参与<strong>基于轮毂电机的高集成度行驶单元关键技术</strong>项目中的<strong>高集成行驶单元运动特性分析与构型设计</strong>子课题。</li>
               <li>建立独立主销转向高集成行驶单元的高保真 13 自由度 MATLAB/Simulink 摆振动力学模型，用于研究非线性摆振机理及参数敏感性；建立 Adams Car 多体动力学模型进行对比验证，并将分析流程实现为软件工具，为多轮平台广义摆振动力学研究奠定基础。</li>
-              <li>基于简化非线性摆振模型，结合复变量平均法（CX-A）与特征子空间投影打靶法开展分岔分析，提出用于高效参数评估的 FPSA 方法，并通过能量流分析揭示参数相关的摆振抑制机理。</li>
+              <li>基于简化非线性摆振模型，结合复变量平均法（CX-A）与特征子空间投影打靶法开展分岔分析，提出 FPSA 方法，相较传统仿真分析实现整体 48.44 倍计算加速；从能量分布与闭环功率平衡角度揭示参数相关的摆振抑制机理。</li>
             </ul>
           </div>
         </article>
 
-        <article class="experience-item text-only">
+        <article class="experience-item" id="research-gft-rmpc">
+          <div class="experience-media paper-figure-set" data-image-slot="paper-preview">
+            <img class="media-asset paper-figure-primary" src="photo/Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC1.jpg" alt="广义容错控制论文主图预览">
+            <img class="media-asset paper-figure-secondary" src="photo/Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC2.jpg" alt="广义容错控制论文辅助图预览">
+          </div>
+          <div class="experience-body">
+            <p class="timeline-date">2025 年 11 月 - 2026 年 7 月</p>
+            <h3>Generalized Fault-Tolerant Control for Multi-Wheel Corner-Module Vehicles via Reconfigurable MPC</h3>
+            <p>
+              本文提出一种面向多轮角模块车辆的通用容错控制（GFT-RMPC）框架，可适配任意底盘构型（4W/6W 及更多构型），具备跨平台泛化能力。该框架包含底盘特征的自动拓扑辨识、考虑执行器健康状态的可重构MPC方案，以及物理潜空间优化方法，确保车辆能在多执行器失效的复杂场景下仍保持车辆稳定性与轨迹跟踪精度。在 18 种转向、驱动及复合故障场景下验证了 GFT-RMPC，证明其在四轮与六轮构型下相较基线方法具有更优的稳定性与跟踪性能。硬件在环测试验证了 12.36 ms 内的实时执行能力，体现了跨构型适应性与工程可部署性。
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-item">
+          <div class="paper-figure-set">
+          <div class="experience-media patent-figure-pair" data-image-slot="patent-wheel-module">
+            <img class="media-asset" src="photo/patent1.png" alt="主销转向与全向转向双模式动力复用电动轮角模块专利图">
+            <img class="media-asset" src="photo/patent1_1.jpg" alt="主销转向与全向转向双模式动力复用电动轮角模块专利辅助图">
+          </div>
+          <img class="experience-media media-asset" src="photo/patent2_web.jpg" alt="采用电动轮角模块的陆空动力复用飞行汽车专利图" data-image-slot="patent-corner-module">
+          </div>
           <div class="experience-body">
             <div class="timeline-date">2025 年 10 月 - 2026 年 5 月</div>
             <h3>多模式动力复用电动轮角模块构型设计</h3>
@@ -262,6 +262,19 @@
             </ul>
           </div>
         </article>
+
+        <article class="experience-item text-only">
+          <div class="experience-body">
+              <h3>面向多模态机器人控制的可认证潜在接口</h3>
+              <p>
+                探索依赖观测历史的潜在状态表示，从多模态观测历史中选择性保留与任务和控制相关的信息，抑制干扰变化、感知噪声及无关历史信息。研究具有内置闭环保证的潜在状态到策略的参数化方法，使可容许潜在状态生成的高层动作策略与稳定化底层控制器及物理系统结合时保持可行与安全。进一步探索潜在空间在线规划与基于强化学习的策略优化，在认证的可容许集合内更新潜在状态与策略，提升任务性能并保持闭环保证。
+              </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="experience" class="section-block">
+        <h2><span class="section-icon">💼</span>实习经历</h2>
 
         <article class="experience-item text-only">
           <div class="experience-body">
